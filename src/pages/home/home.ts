@@ -12,6 +12,7 @@ export class HomePage {
   constructor(public alertCtrl: AlertController,public navCtrl: NavController, public navParams: NavParams) {
     
    
+    
   }
   adultPage(){
  this.navCtrl.push(AdultPage);
