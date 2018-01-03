@@ -1,14 +1,39 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      CHILL-UP
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding alertCtrl class="card-background-page">
+    <ion-card>
+        <img src="assets/imgs/images 1.jpg"/>
+        <div class="card-title"></div>
+        <div class="card-subtitle"></div>
+      </ion-card>
+      <ion-card>
+
+          <ion-card-header>
+            Choose Your Age Group 
+          </ion-card-header>
+        
+          <ion-card-content>
+          
+            Click on the button to choose your age group
+          </ion-card-content>
+        
+        </ion-card>
+    
+  <button ion-button icon-left color=danger round (click)="adultPage();" class="comfirm">
+    <ion-icon name="man"></ion-icon>
+    18+
+  </button>
+  <button ion-button icon-left color=danger round (click)="underagePage();" class="comfirm">
+    <ion-icon name="man"></ion-icon>
+    18-
+  </button>
+  
+
+
 </ion-content>
