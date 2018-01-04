@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MessagePage } from '../message/message';
 
 /**
  * Generated class for the AdultPage page.
@@ -18,6 +19,9 @@ export class AdultPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     
+  }
+  messagePage(){
+    this.navCtrl.push(MessagePage);
   }
 
   ionViewDidLoad() {

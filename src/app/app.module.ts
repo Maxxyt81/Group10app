@@ -8,13 +8,14 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AdultPage } from '../pages/adult/adult';
 import { UnderAgePage} from '../pages/under-age/under-age';
-
+import { MessagePage } from '../pages/message/message';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AdultPage,
-    UnderAgePage
+    UnderAgePage,
+    MessagePage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +26,8 @@ import { UnderAgePage} from '../pages/under-age/under-age';
     MyApp,
     HomePage,
     AdultPage,
-    UnderAgePage
+    UnderAgePage,
+    MessagePage
   ],
   providers: [
     StatusBar,
