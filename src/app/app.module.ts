@@ -9,13 +9,15 @@ import { HomePage } from '../pages/home/home';
 import { AdultPage } from '../pages/adult/adult';
 import { UnderAgePage} from '../pages/under-age/under-age';
 import { MessagePage } from '../pages/message/message';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AdultPage,
     UnderAgePage,
-    MessagePage
+    MessagePage,
+    
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { MessagePage } from '../pages/message/message';
     HomePage,
     AdultPage,
     UnderAgePage,
-    MessagePage
+    MessagePage,
+  
   ],
   providers: [
     StatusBar,
