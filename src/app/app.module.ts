@@ -9,6 +9,9 @@ import { HomePage } from '../pages/home/home';
 import { AdultPage } from '../pages/adult/adult';
 import { UnderAgePage} from '../pages/under-age/under-age';
 import { MessagePage } from '../pages/message/message';
+import { AboutusPage } from '../pages/aboutus/aboutus';
+import { MenuPage } from '../pages/menu/menu';
+import { TabPage } from '../pages/tab/tab';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { MessagePage } from '../pages/message/message';
     AdultPage,
     UnderAgePage,
     MessagePage,
+    AboutusPage,
+    MenuPage,
+    TabPage
     
   ],
   imports: [
@@ -30,6 +36,9 @@ import { MessagePage } from '../pages/message/message';
     AdultPage,
     UnderAgePage,
     MessagePage,
+    AboutusPage,
+    MenuPage,
+    TabPage
   
   ],
   providers: [
