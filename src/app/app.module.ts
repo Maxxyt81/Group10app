@@ -12,6 +12,7 @@ import { MessagePage } from '../pages/message/message';
 import { AboutusPage } from '../pages/aboutus/aboutus';
 import { MenuPage } from '../pages/menu/menu';
 import { TabPage } from '../pages/tab/tab';
+import {GmusikPage} from '../pages/gmusik/gmusik';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TabPage } from '../pages/tab/tab';
     MessagePage,
     AboutusPage,
     MenuPage,
-    TabPage
+    TabPage,
+    GmusikPage
     
   ],
   imports: [
@@ -38,7 +40,8 @@ import { TabPage } from '../pages/tab/tab';
     MessagePage,
     AboutusPage,
     MenuPage,
-    TabPage
+    TabPage,
+    GmusikPage
   
   ],
   providers: [
